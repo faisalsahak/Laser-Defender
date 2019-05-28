@@ -258,7 +258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b00308c4cebc4d31b818f8b1bf2e376, type: 3}
---- !u!1001 &1221111388
+--- !u!1001 &1319192790
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -324,11 +324,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 579008321395189769, guid: 558dcfc2a76074b149554e5a82bd1729,
-        type: 3}
-      propertyPath: laserPrefab
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 558dcfc2a76074b149554e5a82bd1729, type: 3}
