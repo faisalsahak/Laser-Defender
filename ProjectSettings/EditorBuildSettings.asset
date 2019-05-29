@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Start Menu.unity
+    guid: 4211ba0b7d61345e4a3b46e1a17f55f8
+  - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Game Over.unity
     guid: 0687728d960d5496cb1be85061b4b7e9
-  - enabled: 1
-    path: Assets/Scenes/Start Menu.unity
-    guid: 4211ba0b7d61345e4a3b46e1a17f55f8
   m_configObjects: {}

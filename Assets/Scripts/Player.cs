@@ -81,10 +81,11 @@ public class Player : MonoBehaviour
     private void DestroyPlayer(Damagedealer damageDealer){
         health-= damageDealer.GetDamage();
         damageDealer.Hit();
-      if(health <=0)
-        Destroy(gameObject);
-        AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
-
+      if(health <=0){
+          FindObjectOfType<Level>().LoadGameOver();
+          Destroy(gameObject);
+          AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
+      }
     }
 
 }
