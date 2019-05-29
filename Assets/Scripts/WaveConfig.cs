@@ -7,7 +7,7 @@ public class WaveConfig : ScriptableObject{
     // Start is called before the first frame update
     [SerializeField] GameObject enemyPrefab;
     [SerializeField] GameObject pathPrefab;
-    [SerializeField] float timeBetweenSpawn =0.5f;
+    [SerializeField] float timeBetweenSpawn =0.1f;
     [SerializeField] float spawnRandomFactor = 0.3f;
     [SerializeField] int numberOfEnemies = 5;
     [SerializeField] float moveSpeed = 2f;
