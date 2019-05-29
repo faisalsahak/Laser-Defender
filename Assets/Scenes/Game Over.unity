@@ -1557,6 +1557,30 @@ PrefabInstance:
       propertyPath: m_MatchWidthOrHeight
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 222020422, guid: 2cd0a3630ac634797812152efda8002f, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 222020422, guid: 2cd0a3630ac634797812152efda8002f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -540
+      objectReference: {fileID: 0}
+    - target: {fileID: 222020422, guid: 2cd0a3630ac634797812152efda8002f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -821
+      objectReference: {fileID: 0}
+    - target: {fileID: 222020422, guid: 2cd0a3630ac634797812152efda8002f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 222020422, guid: 2cd0a3630ac634797812152efda8002f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 122.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 222020424, guid: 2cd0a3630ac634797812152efda8002f, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cd0a3630ac634797812152efda8002f, type: 3}
 --- !u!224 &2143169429 stripped
