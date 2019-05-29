@@ -6,7 +6,11 @@ public class GameSession : MonoBehaviour
 {
 
 	int score = 0;
+	[SerializeField] int health;
     // Start is called before the first frame update
+ 	void Start(){
+ 		health = FindObjectOfType<Player>().GetHealth();
+ 	}
     void Awake()
     {
         SetUpSingleton();
@@ -22,7 +26,9 @@ public class GameSession : MonoBehaviour
     }
 
     public int GetScore(){return score;}
+    public int GetHealth(){return health;}
     public void AddToScore(int scoreVal){score+=scoreVal;}
+    public void UpdateHealth(int num){health -=num;}
     public void ResetGame(){
     	Destroy(gameObject);
     }
