@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 241067557601573746}
   - component: {fileID: 4469979061346482350}
   - component: {fileID: -4902269415572157713}
-  - component: {fileID: 8425142464175612999}
+  - component: {fileID: 7981901881187915991}
   m_Layer: 0
   m_Name: Bernard
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3051606231967204957}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.056, y: 1.0304, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -114,8 +114,8 @@ MonoBehaviour:
   projectile: {fileID: 1665171453636372293, guid: 47773ce69cfae4583af9a3d6b817f006,
     type: 3}
   projectileSpeed: 10
---- !u!58 &8425142464175612999
-CircleCollider2D:
+--- !u!61 &7981901881187915991
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -127,6 +127,16 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.37174016}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.82, y: 0.84}
+    newSize: {x: 0.82, y: 0.84}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.42
+  m_Size: {x: 0.82, y: 0.09651956}
+  m_EdgeRadius: 0
