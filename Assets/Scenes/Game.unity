@@ -791,6 +791,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4512654388298347073, guid: e078731bd403b40f09ad6c2f1ee79673,
+        type: 3}
+      propertyPath: m_Name
+      value: Roger
+      objectReference: {fileID: 0}
     - target: {fileID: -8359243708709563188, guid: e078731bd403b40f09ad6c2f1ee79673,
         type: 3}
       propertyPath: health
@@ -800,11 +805,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4512654388298347073, guid: e078731bd403b40f09ad6c2f1ee79673,
-        type: 3}
-      propertyPath: m_Name
-      value: Roger
       objectReference: {fileID: 0}
     - target: {fileID: 4512654388298347075, guid: e078731bd403b40f09ad6c2f1ee79673,
         type: 3}
