@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 4512654388298347074}
   - component: {fileID: 2137388058716840231}
   - component: {fileID: -8359243708709563188}
-  - component: {fileID: 4557028430045128225}
-  m_Layer: 0
+  - component: {fileID: 6399329984506435139}
+  m_Layer: 9
   m_Name: Roger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,8 +114,8 @@ MonoBehaviour:
   projectile: {fileID: 1665171453636372293, guid: 47773ce69cfae4583af9a3d6b817f006,
     type: 3}
   projectileSpeed: 10
---- !u!61 &4557028430045128225
-BoxCollider2D:
+--- !u!58 &6399329984506435139
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -127,16 +127,6 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.38542622}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.93, y: 0.84}
-    newSize: {x: 0.93, y: 0.84}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: 0.09109634}
   serializedVersion: 2
-  m_Size: {x: 0.93, y: 0.06914747}
-  m_EdgeRadius: 0
+  m_Radius: 0.3739037
